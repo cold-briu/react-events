@@ -30,7 +30,7 @@ export default class Click extends React.Component {
 	render() {
 		return (
 			<>
-				<h3 className="m-2">soy click.jsx</h3>
+				<h3 className="m-2">soy Click.jsx</h3>
 				<div className="p-5 d-flex flex-column">
 
 					<button
@@ -54,8 +54,8 @@ export default class Click extends React.Component {
 						el "this" arrow
 					</button>
 
-					<img src={IMG_LINK} alt="" srcset="" onClick={this.hasbullaHandler} />
-					<img className="mt-2" src={ABDUL_IMG} alt="" srcset="" onClick={this.abdulHandler} />
+					<img src={IMG_LINK} alt="" srcSet="" onClick={this.hasbullaHandler} />
+					<img className="mt-2" src={ABDUL_IMG} alt="" srcSet="" onClick={this.abdulHandler} />
 				</div>
 			</>
 		)
